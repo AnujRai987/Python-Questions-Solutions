@@ -45,7 +45,7 @@ condition="Unripe" if color==1 else("Ripe" if color==2 else "Overripe")
 print(f"{fruit} is {condition}.")
 ''' 
 
-# Suggest an activity based on the weather(e.g.,Sunny-Go for a walk,Rainy-Read a book, Snowy - Build a snowman).
+#question 5: Suggest an activity based on the weather(e.g.,Sunny-Go for a walk,Rainy-Read a book, Snowy - Build a snowman).
 '''
 weather="Rainy"
 w=weather.lower()
