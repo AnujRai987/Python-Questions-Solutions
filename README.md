@@ -45,3 +45,27 @@
 <br><br>
 **Question 10**:Implement an exponential backoff strategy that doubles the wait time between retries, starting from 1 second,but stops after retries.
 <br><br>
+
+##
+## ***Solving 10 function questions***
+**Question 1**: Write a function to calculate and return the square of a number.
+<br><br>
+**Question 2**: Create a fucntion that takes two numbers as 
+parameters and returns their sum.
+<br><br>
+**Question 3**: Write a function multipy that multiplies two numbers,but can also accept and multipy strings.
+<br><br>
+**Question 4**: Create a function that returns both the area and circumference of a cirlce given its radius.
+<br><br>
+**Question 5**: write a function that greets a user.If no name is provided,it should greet with a default name.
+<br><br>
+**Question 6**:Create a lambda function to compute the cube of a number.
+<br><br>
+**Question 7**: Write a function that takes variable number of arguments and return their sum.
+<br><br>
+**Question 8**: Create a function that accepts any number of keyword arguments and prints them in the format key: value.
+<br><br>
+**Question 9**: Write a generator function that yields even numbers up to a specified limit.
+<br><br>
+**Question 10**: Create a recursive function to calculate the factorial of a number.
+<br><br>
