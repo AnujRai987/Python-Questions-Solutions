@@ -42,7 +42,7 @@ print(greet())
 print(greet("Anuj"))
 '''
 
-#Question 6:Create a lambda function to compute the cube of a number
+#Question 6:Create a lambda function to compute the cube of a number.
 '''
 cube_number=lambda num : num **3
 print(cube_number(3))
@@ -59,3 +59,32 @@ print(sum_all(1,3,4))
 '''
 
 #Question 8: Create a function that accepts any number of keyword arguments and prints them in the format key: value.
+'''
+def print_kwargs(**kwargs):
+    for key,value in kwargs.items():
+        print(f"{key} : {value}")
+
+print_kwargs(name="Anuj",age=24)
+'''
+
+#Question 9: Write a generator function that yields even numbers up to a specified limit.
+'''
+def even_numbers(limit):
+    for i in range(2,limit+1,2):
+        yield i
+        
+
+for num in even_numbers(10):
+    print(num)
+'''
+
+#Question 10: Create a recursive function to calculate the factorial of a number.
+'''
+def factorial(num):
+    if(num==0):
+        return 1
+    
+    return factorial(num-1)*num
+
+print(factorial(5))
+'''
