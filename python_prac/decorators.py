@@ -42,7 +42,7 @@ def greet(name,greeting="hello"):
 greet("Anuj",greeting = "Namaste ")
 '''
 
-#Question 3: Implement a decorator that caches the return values of a function, so that when it's called with the same arguments , the cacked value is returned instead of re-executing the function.
+#Problem 3: Implement a decorator that caches the return values of a function, so that when it's called with the same arguments , the cacked value is returned instead of re-executing the function.
 '''
 import time
 def cache(func):

@@ -1,4 +1,4 @@
-# <center> **Python-Questions-Solutions** </center>
+# <center> **Python-Problems-Solutions** </center>
 
 ## ***Solving 10 questions***
 
@@ -91,4 +91,13 @@ parameters and returns their sum.
 **Question 9**: Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
 <br><br>
 **Question 10**: Create two classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance.
+<br><br>
+
+##
+## ***Decorators***
+**Problem 1**: Write a decorator that measures the time a function takes to execute.
+<br><br>
+**Problem 2**: Create a decorator to print the function name the values of its arguments every time the function is called.
+<br><br>
+**Problem 3**: Implement a decorator that caches the return values of a function, so that when it's called with the same arguments , the cacked value is returned instead of re-executing the function.
 <br><br>
