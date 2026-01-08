@@ -53,7 +53,7 @@
 **Question 2**: Create a fucntion that takes two numbers as 
 parameters and returns their sum.
 <br><br>
-**Question 3**: Write a function multipy that multiplies two numbers,but can also accept and multipy strings.
+**Question 3**: Write a function multipy that multiplies two numbers,but can also accept and multipy strings.(Polymorphism)
 <br><br>
 **Question 4**: Create a function that returns both the area and circumference of a cirlce given its radius.
 <br><br>
