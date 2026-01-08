@@ -69,3 +69,26 @@ parameters and returns their sum.
 <br><br>
 **Question 10**: Create a recursive function to calculate the factorial of a number.
 <br><br>
+
+##
+## ***10 Basic OOPS questions***
+**Question 1**: Create a Car class with attributes like brand and model. Then create an instance of this class.
+<br><br>
+**Question 2**: Add a method to the Car class that displays the full name of the car(brand and model).
+<br><br>
+**Question 3**:Create an ElectricCar Class that inherits from the Car class and has an additional attribute battery_size.(Inheritance).
+<br><br>
+**Question 4**: Modify the Car class to encapsulation the brand attribute, making it privat, and provide a geeter method for it.(Encapsulation).
+<br><br>
+**Question 5**: Demonstrate polymorphism  by defining a method fuel_type in both Car and ElectricCar classes, but with different behaivors.
+<br><br>
+**Question 6**: Add a class variable to Car that keeps track of the number of cars created.
+<br><br>
+**Question 7**: Add a static method to the Car class that returns a general description of a car.
+<br><br>
+**Question 8**: Use a property decorator in the Car class to make the model attribute read-only.
+<br><br>
+**Question 9**: Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
+<br><br>
+**Question 10**: Create two classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance.
+<br><br>
