@@ -1,4 +1,4 @@
-#Question 1: Given a list of numbers, count how many are positive.
+#Problem 1: Given a list of numbers, count how many are positive.
 '''
 numbers=[1,-2,3,-4,5,6,-7,-8,9,10]
 count=0
@@ -9,7 +9,7 @@ for value in numbers:
 print("Final count of positive number is: ",count)
 '''
 
-#Question 2: Calculate the sum of even numbers up to a given number n.
+#Problem 2: Calculate the sum of even numbers up to a given number n.
 '''
 n=8
 sum=0
@@ -22,7 +22,7 @@ while(i<=8):
 print("The sum of given n even numbers : {}".format(sum))
 '''
 
-#Question 3: Print the multiplication table for a given number up to 10, but skip the fifth iteration.
+#Problem 3: Print the multiplication table for a given number up to 10, but skip the fifth iteration.
 '''
 n=6
 for i in range(1,11):
@@ -31,7 +31,7 @@ for i in range(1,11):
     print(f"{n} X {i} = {n*i}")
 '''
 
-#Question 4:Reverse a string using a loop.
+#Problem 4:Reverse a string using a loop.
 
 '''
 input_str="Python"
@@ -44,7 +44,7 @@ for char in input_str:
 print(reversed_str)
 '''
 
-#Question 5:Given a string, find the first non-repeated character.
+#Problem 5:Given a string, find the first non-repeated character.
 '''
 input_str="teeter"
 
@@ -54,7 +54,7 @@ for char in input_str:
         break
 '''
 
-#Question 6:Compute the factorial of a nubmer using a while loop.
+#Problem 6:Compute the factorial of a nubmer using a while loop.
 '''
 num=5
 fact=1
@@ -68,7 +68,7 @@ else:
 print(f"factorial of {num} is :{fact}")
 '''
 
-#Question 7:Keep asking the user for input until they enter a number between 1 and 10.
+#Problem 7:Keep asking the user for input until they enter a number between 1 and 10.
 '''
 while True:
     number=int(input("Enter value b/w 1 and 10 :"))
@@ -80,7 +80,7 @@ while True:
         print("Invalid input try again....")
 '''
 
-#Question 8: Check if a number is prime.
+#Problem 8: Check if a number is prime.
 '''
 num=17
 isPrime=True
@@ -94,7 +94,7 @@ if(num>1):
 print("Number {} is {}".format(num,"Prime" if isPrime==True else "Not Prime"))
 '''
 
-#Question 9: Check if all elements in a lsit are unique. If a duplicate is found,exit the loop and print the duplicate.
+#Problem 9: Check if all elements in a lsit are unique. If a duplicate is found,exit the loop and print the duplicate.
 '''
 items=["apple","banana","orange","apple","mango"]
 count=0
@@ -104,7 +104,7 @@ for item in items:
         print(item)
         break
 '''
-#Question 10:Implement an exponential backoff strategy that doubles the wait time between retries, starting from 1 second,but stops after retries.
+#Problem 10:Implement an exponential backoff strategy that doubles the wait time between retries, starting from 1 second,but stops after retries.
 '''
 import time
 
