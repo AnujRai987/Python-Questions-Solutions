@@ -6,26 +6,28 @@ def load_data():
             return json.load(file)
 
     except FileNotFoundError:
-        print("File is not Found.")
+        return []
 
-def save_data_helper(video):
+def save_data_helper(videos):
     with open(FILE,"w") as file:
-        json.dumps(video)
+        json.dump(videos,file)
 
-def list_all_videos():
-    print(load_data())
+def list_all_videos(videos):
+    for index, video in enumerate(videos,start=1):
+        print(f"{index}:{video}",end="\n")
 
-def add_video():
+def add_video(videos):
     name=input("Enter video name: ")
     time=input("Enter time limit : ")
-    video=f"{"{name}:{time}"}"
-    save_data_helper(video)
+    videos.append({"name":name,"time":time})
+    save_data_helper(videos)
     
-def update_video_details(video):
-    pass
-def delete_video():
+    
+def update_video_details():
     pass
 
+def delete_video(video):
+    pass
 
 def main():
     videos=load_data()
@@ -36,9 +38,9 @@ def main():
 
         match choice :
             case "1":
-                list_all_videos()
+                list_all_videos(videos)
             case "2":
-                add_video()
+                add_video(videos)
             case "3":
                 pass
             case "4":
