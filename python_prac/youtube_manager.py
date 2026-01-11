@@ -40,8 +40,11 @@ def update_video_details(videos):
 
 def delete_video(videos):
     index=int(input("Enter video number to delete: "))
-    del videos[index-1]
-    save_data_helper(videos)
+    if(1<=index<=len(videos)):
+        del videos[index-1]
+        save_data_helper(videos)
+    else:
+        print("Invalid input")
 
 def main():
     videos=load_data()
