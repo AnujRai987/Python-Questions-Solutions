@@ -43,6 +43,7 @@ def delete_video(videos):
     if(1<=index<=len(videos)):
         del videos[index-1]
         save_data_helper(videos)
+        print(f"Video number {index} has been succesfully delted.")
     else:
         print("Invalid input")
 

@@ -1,1 +1,0 @@
-[{"Name": "chai aur cpp", "Duration": "44hrs"}, {"Name": "chai aur python", "Duration": "32hrs"}]
