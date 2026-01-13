@@ -1,7 +1,12 @@
+import sqlite3
+
+conn=sqlite3.connect("youtube.db")
+cur=conn.cursor()
+
 def list_all_videos():
     pass
 def add_video():
-    pass 
+    cur.execute("CREATE TABLE IF NOT EXIST videos()")
 
 def update_video():
     pass
