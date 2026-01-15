@@ -45,7 +45,6 @@ def main():
             case '1':
                 list_all_videos()
             case '2':
-                
                 add_video()
             case '3':
                 update_video()
