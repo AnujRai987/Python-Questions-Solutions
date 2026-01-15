@@ -55,8 +55,6 @@ def main():
             case _:
                 print("Invalid choice !!")
 
-
-
     conn.close()        
 
 if __name__ == "__main__":
