@@ -19,5 +19,4 @@ if data['success']==True and 'data' in data:
         print(f"{key}={value}")
 
 
-
-
+print(info)
